@@ -37,7 +37,7 @@
 	          <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
 	          <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
 	          <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
-			  <li class="nav-item"><a href="#projects-section" class="nav-link"><span>Projects</span></a></li>
+		  <!-- <li class="nav-item"><a href="#projects-section" class="nav-link"><span>Projects</span></a></li> -->
 		      <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
 	        </ul>
 	      </div>
@@ -56,7 +56,7 @@
 								     class="txt-rotate"
 									 data-period="2000"
 					
-								     data-rotate='[ "Student.", "Computer Science Major.", "Music Minor", "Pianist.", "Harpist.", "Reader.", "Sushi Lover.", "Zumba Master." ]'></span>
+								     data-rotate='[ "Student.", "Computer Science Major.", "Music Minor.", "Pianist.", "Harpist.", "Reader.", "Sushi Lover.", "Zumba Master." ]'></span>
 								</h2>
 							</div>
             </div>
@@ -276,13 +276,13 @@
 			  </div>
     	</div>
     </section>
-
+<!-- comment out project section for now
     <section class="ftco-section ftco-project" id="projects-section">
     	<div class="container-fluid px-md-0">
     		<div class="row no-gutters justify-content-center pb-5">
           <div class="col-md-12 heading-section text-center ftco-animate">
-          	<h1 class="big big-2">Projects</h1>
-            <h2 class="mb-4">My Projects</h2>
+	<h1 class="big big-2">Projects</h1>
+ 	<h2 class="mb-4">My Projects</h2>
             <p>Place holder for projects completed in intro to engineering</p>
           </div>
         </div>
@@ -345,7 +345,7 @@
     		</div>
     	</div>
     </section>
-
+			-->
     <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
       <div class="container">
       	<div class="row justify-content-center mb-5 pb-3">
@@ -405,21 +405,21 @@
 
         <div class="row no-gutters block-9">
           <div class="col-md-6 order-md-last d-flex">
-            <form action="#" class="bg-light p-4 p-md-5 contact-form">
+            <form action="#" method="POST" class="bg-light p-4 p-md-5 contact-form">
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Your Name">
+                <input id="name" type="text" name="name" class="form-control" placeholder="Your Name">
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Your Email">
+                <input id="email" type="text" name="email" class="form-control" placeholder="Your Email">
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Subject">
+                <input id="Subject" type="text" name="Subject" class="form-control" placeholder="Subject">
               </div>
               <div class="form-group">
-                <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+                <textarea id="message" name="message" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
               </div>
               <div class="form-group">
-                <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
+                <input id="submit" type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
               </div>
             </form>
           
@@ -501,8 +501,8 @@
   <script src="js/aos.js"></script>
   <script src="js/jquery.animateNumber.min.js"></script>
   <script src="js/scrollax.min.js"></script>
-  
-  <script src="js/main.js"></script>
+  <script src="js/.js/emailcontact.js"></script>
+    <script src="js/main.js"></script>
     
   </body>
 </html>
