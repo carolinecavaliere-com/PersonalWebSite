@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/ad8f81e4-3ac9-4013-b23b-27cd24fe9f42/resourceGroups/CarolineCavalierePersonalWebSiteNodeJs/providers/Microsoft.Web/sites/carolinecavalierenodejs",
+    "appService.deploySubpath": ""
+}
